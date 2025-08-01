@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 90" class="logo">
+  <!-- Background circle -->
+  <circle cx="45" cy="45" r="37.5" fill="#FF6B35" opacity="0.1"/>
+  
+  <!-- Main icon - data extraction concept -->
+  <g transform="translate(18, 18)">
+    <!-- Web/Grid lines -->
+    <path d="M12 12 L48 12 M12 24 L48 24 M12 36 L48 36 M12 48 L48 48" stroke="#FF6B35" stroke-width="2.25" opacity="0.3"/>
+    <path d="M12 12 L12 48 M24 12 L24 48 M36 12 L36 48 M48 12 L48 48" stroke="#FF6B35" stroke-width="2.25" opacity="0.3"/>
+    
+    <!-- Data extraction arrow -->
+    <path d="M30 18 L42 30 L30 42" stroke="#FF6B35" stroke-width="3.75" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M18 30 L39 30" stroke="#FF6B35" stroke-width="3.75" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Company name -->
+  <text x="105" y="37.5" font-family="Inter, system-ui, sans-serif" font-size="27" font-weight="700" fill="#2D3748">
+    Scraping
+  </text>
+  <text x="105" y="67.5" font-family="Inter, system-ui, sans-serif" font-size="21" font-weight="500" fill="#718096">
+    as a Service
+  </text>
+</svg>
